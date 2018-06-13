@@ -4,7 +4,9 @@ A webpack plugin to incorporate your own service worker to your build process by
 
 ### installation
 ``` yarn add -D webpack-add-sw-plugin ```
+
 or
+
 ``` npm install --save-dev webpack-add-sw-plugin ```
 
 ### usage
@@ -15,8 +17,8 @@ module.exports {
 	...
 	plugin: [
 		new AddSW({
-			src: './src/sw.js',					// path to your service worker
-			filename: 'service-worker.js'		// name of the emitted service worker by the plugin (a service worker with the name `service-worker.js` will be created inside your output directory)
+			src: './src/sw.js',              // path to your service worker
+			filename: 'service-worker.js'    // name of the emitted service worker by the plugin (a service worker with the name `service-worker.js` will be created inside your output directory)
 		})
 	]
 }
@@ -24,12 +26,12 @@ module.exports {
 
 consider the following directory structure
 ```
-- src
--- *other files and folders*
--- sw.js
-- node_modules
-- package.json
-- webpack.config.js
+-src
+--*other files and folders*
+--sw.js
+-node_modules
+-package.json
+-webpack.config.js
 ```
 
 `%VERSION%` will be replaced by a unique hash & `%ASSETS%` will be replaced an array of paths to the emitted assets.
