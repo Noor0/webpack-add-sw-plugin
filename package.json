@@ -17,4 +17,8 @@
   ],
   "author": "Noor ul haq",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Noor0/webpack-add-sw-plugin.git"
+  }
 }
