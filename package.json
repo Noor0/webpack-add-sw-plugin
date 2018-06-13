@@ -1,0 +1,20 @@
+{
+  "name": "webpack-add-sw-plugin",
+  "version": "1.0.0",
+  "description": "a webpack plugin that allows you to write and add your own service worker to your webpack build process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "service-worker",
+    "sw",
+    "webpack",
+    "plugin",
+    "add",
+    "swtoolbx",
+    "swprecache"
+  ],
+  "author": "Noor ul haq",
+  "license": "MIT",
+}
