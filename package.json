@@ -1,6 +1,6 @@
 {
   "name": "webpack-add-sw-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a webpack plugin that allows you to write and add your own service worker to your webpack build process",
   "main": "index.js",
   "scripts": {
